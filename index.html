@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator sederhana</title>
+</head>
+<body>
+    <h1>Kalkulator sederhana</h1>
+    <input type="number" name="edInputAwal" id="edInputAwal">
+    <hr>
+    <input type="number" name="edInputAkhir" id="edInputAkhir">
+    <hr>
+    <input type="button" value="Tambah" name="btnTambah" id="btnTambah" onclick="onbtnTambahClick()">
+    <input type="button" value="Kurang" name="btnKurang" id="btnKurang" onclick="onbtnKurangClick()">
+    <input type="button" value="Kali" name="btnKali" id="btnKali" onclick="onbtnKaliClick()">
+    <input type="button" value="Bagi" name="btnBagi" id="btnBagi" onclick="onbtnBagiClick()">
+    <input type="button" value="Modulus" name="btnModulus" id="btnModulus" onclick="onbtnModulusClick()">
+    <hr>
+    <input type="number" name="edHasil" id="edHasil" readonly>
+    <hr>
+    <input type="button" value="Clear" name="btnClear" id="btnClear" onclick="onbtnClearClick()">
+    <script src="./main.js">
+        InitFunction();
+    </script>
+</body>
+</html>
